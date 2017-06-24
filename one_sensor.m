@@ -1,0 +1,11 @@
+xCenter = 12;
+yCenter = 10;
+theta = 0 : 0.01 : 2*pi;
+radius = 5;
+x = radius * cos(theta) + xCenter;
+y = radius * sin(theta) + yCenter;
+plot(x, y);
+axis square;
+xlim([0 20]);
+ylim([0 20]);
+grid on;
